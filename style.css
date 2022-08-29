@@ -1,0 +1,391 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.dropdown-item{
+ border-bottom: 1px solid rgb(223, 221, 221);
+}
+
+
+/* Header Style */
+.jon-header .navbar-brand {
+	font-size: 25px;
+	font-weight: 500;
+}
+.jon-header span {
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 43px;
+	width: 40px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 28px;
+	position: relative;
+	top: 3px;
+}
+.jon-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* Slider Section */
+.slider-section{
+    background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.slider-caption h4 {
+    margin-bottom: 35px;
+}
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+
+/* about section*/
+.about{
+    padding: 100px;
+    text-align: center;
+    
+}
+.about h1{
+    font-size: 60px;
+
+}
+.about h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.about1 h1{
+    font-weight: bold;
+    margin-top: 100px;
+}
+.about1 p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.about1 img{
+    border-radius: 5px;
+}
+
+
+/* feature section*/
+.left-img-section{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+
+}
+.right-test-section{
+    width: 60%;
+
+}
+.right-test-section h2{
+    font-size: 30px;
+
+}
+.right-test-section p{
+    font-size: 20px;
+   font-weight: 300;
+}
+.feature-section{
+    padding: 50px;
+}
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+.feature-item:hover{
+    cursor: pointer;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191, 2);
+}
+.left-img-section img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+
+}
+.feature-heading{
+    padding: 100px;
+    text-align: center;
+}
+.feature-heading h2{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.feature-heading h5{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.col h1{
+    padding: 100px;
+    font-weight: bolder;
+}
+
+
+.protfolio-item a{
+    position: relative;
+    display: block;
+  
+}
+
+.protfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, .6);
+    opacity: 0;
+    visibility: hidden;
+   
+
+}
+.protfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .4s;
+
+}
+
+/* item section*/
+
+
+
+.col h1{
+    font-size: 60px;
+    padding-bottom: 0px;
+}
+.col h3{
+    font-weight: 300;
+}
+
+.item-section{
+    padding: 150px;
+    padding-top: 50px;
+}
+.item-section-heading h1{
+    font-size: 50px;
+}
+.item-section-heading h3{
+    font-weight: 300;
+}
+.item-list ul{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+.item-list ul li{
+   list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.item-section{
+background-color:  rgb(248, 242, 242)
+}
+.item-section1{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191, 2);
+    border-radius: 5px;
+}
+
+.item-button a{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191, 2);
+    padding: 20px 40px;
+    background-color: #ffffff;;
+  
+    text-decoration: none;
+    font-size: 28px;
+    border-radius: 10px;
+}
+.item-button a:hover{
+    background-color: black;
+    color: white;
+    transition: .4s;
+
+}
+.item-list ul li span{
+    color: #6278df;
+    font-size: 25px;
+    margin-left: 20px;
+    width: 40px;
+    display: inline-block;
+}
+
+
+/* heading2 */
+.heading2{
+    padding: 100px;
+}
+.heading-item h3{
+    padding-bottom: 0;
+}
+.heading-item h1{
+    padding-top: 0;
+    font-size: 50px;
+    
+}
+.heading-item span{
+    font-size: 80px;
+    color: rgb(190, 190, 190);
+}
+.another-info img{
+    width: 85px;
+    margin-right: 15px;
+
+}
+.user-details{
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    top: 12px;
+}
+.user-details h5{
+    
+}
+.another-info{
+    width: 200px;
+    margin: auto;
+}
+
+/* card section*/
+    
+.about-section{
+    background-color: gainsboro;
+    padding: 50px 0;
+}
+.col h2{
+    font-size: 50px;
+    text-align: center;
+}
+.pragraph-section p{
+    padding: 30px;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.about-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191, .2);
+}
+
+
+.card img{
+    border-radius: 50%;
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+}
+.card-body h4{
+    font-weight: bold;
+}
+.card-body p{
+    padding: 10px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+.card-body a{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.card-body a:hover{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    transition: .3s;
+
+}
+
+
+/* contact section*/
+
+.col p{
+    padding-top: 40px;
+    font-size: 30px;
+ 
+}
+.col h1{
+    margin-bottom: 0;
+    padding: 30px;
+    font-weight: 300;
+}
+.card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191, .2);
+}
+.card-body h4{
+    padding: 15px;
+    font-size: 30px;
+}
+
+
+/* button */
+.button{
+    padding: 50px;
+}
+.col h1{
+    font-weight: bold;
+}
+.col h3{
+   font-weight: 300;
+}
+.button a{
+    border: 2px solid #5ba533;
+    padding: 20px 38px;
+    color:#5ba533 ;
+    font-size: 27px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.button a:hover{
+    background-color:#5ba533 ;
+    color: white;
+    transition: .5s;
+}
+.button a{
+
+}
+
+.img-b img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.footer{
+    background-color: darkslateblue;
+}
